@@ -1,0 +1,9 @@
+include "book.fbs";
+namespace kaspar;
+
+table BookCollection {
+  books: [Book];
+  info: Info;
+}
+
+root_type BookCollection;

@@ -1,0 +1,14 @@
+namespace kaspar;
+
+table Info {
+  smth: [byte];
+}
+
+table Book {
+  name: string;
+  author: string;
+  rating: float;
+  info: Info;
+}
+
+root_type Book;
